@@ -42,17 +42,9 @@ p {
   margin-right: auto;
 }
 
-
-.separator03 {
-  width: 100%;
-  border: none;
-  border-top: 1px solid #2c3e50;  
-  margin-bottom: 0; /* Nuevo: elimina el margen inferior del hr */
-  border-top: 1px solid #2c3e50;
-}
-
-footer {  
-  padding-bottom: 30px; /* Ajusta este valor al alto de tu footer */
+footer { 
+  border-top: 1px solid #2c3e50;  	
+  padding-bottom: 20px; /* Ajusta este valor al alto de tu footer */  
   width: 100%;
   height: 40px; /* Ajusta el alto de tu footer */
   background-color: #f0f0f0; /* Color de fondo del footer */
@@ -62,4 +54,3 @@ footer {
   margin-top: auto; /* Nuevo: empuja el footer hacia abajo */
   margin-bottom: 0;
 }
-
