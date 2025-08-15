@@ -1,0 +1,64 @@
+body {
+  /* La capa semitransparente va primero */
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url("images/puppy.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh; /* Asegura que el body ocupe al menos la altura de la ventana */
+  display: flex; /* Nuevo: convierte el body en un contenedor flexible */
+  flex-direction: column; /* Nuevo: apila los elementos verticalmente */  
+  /* Estas propiedades ya no son necesarias */
+  /* position: relative; */
+  /* z-index: -1; */
+
+}
+
+h1, h2 {
+	font-family: "Playfair Display", serif;	
+    }
+
+h1 {
+  color: #2c3e50;
+  text-align: center; /* Centramos el título de la página */
+}
+
+h2 {
+  color: rgb(95,95,95); /* Ejemplo de color diferente para h2 */
+}
+
+p {
+	font-family: "Merriweather", serif;
+	color: #2c3e50;
+   }
+
+.separator01 {
+  width: 450px;
+  /* Establecer el borde como el color deseado y eliminar los bordes por defecto */
+  border: none;
+  border-top: 1px solid #2c3e50; /* Crea un borde superior de 1px con el color deseado */
+  margin-left: 0; /* Asegura la alineación a la izquierda */  
+  margin-right: auto;
+}
+
+
+.separator03 {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #2c3e50;  
+  margin-bottom: 0; /* Nuevo: elimina el margen inferior del hr */
+  border-top: 1px solid #2c3e50;
+}
+
+footer {  
+  padding-bottom: 30px; /* Ajusta este valor al alto de tu footer */
+  width: 100%;
+  height: 40px; /* Ajusta el alto de tu footer */
+  background-color: #f0f0f0; /* Color de fondo del footer */
+  font-size: 0.875em; /* 14px/16=0.875em */
+  line-height: 0.7;
+  text-align: left; /* El contenido del footer se alinea a la izquierda*/
+  margin-top: auto; /* Nuevo: empuja el footer hacia abajo */
+  margin-bottom: 0;
+}
