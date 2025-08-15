@@ -2,7 +2,7 @@ body {
   /* La capa semitransparente va primero */
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
-    url("images/puppy.jpg");  
+    url("../images/puppy.jpg");  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -62,3 +62,4 @@ footer {
   margin-top: auto; /* Nuevo: empuja el footer hacia abajo */
   margin-bottom: 0;
 }
+
